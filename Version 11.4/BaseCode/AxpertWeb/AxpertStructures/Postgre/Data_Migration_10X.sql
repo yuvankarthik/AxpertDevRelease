@@ -1,6 +1,7 @@
 
 
-<<INSERT INTO axp_vp 
+<<
+INSERT INTO axp_vp 
 (axp_vpid, cancel, sourceid, mapname, username, modifiedon, createdby, createdon, 
 wkid, app_level, app_desc, app_slevel, cancelremarks, wfroles, vpname, isparam, vscript, 
 pcaption, pdatatype, modeofentry, sql_editor_psql, vpvalue, display, readonly, postaccept, 
@@ -8,15 +9,16 @@ postselect, customdatatype, datawidth, ttransid, dcselect, masterdl,
 "source", masterdlselect, masterdlui, isconstant, isvariable, isappparam, remarks) 
 VALUES(1489990000000, 'F', 0, NULL, 'admin', '2025-01-02', 'admin', '2025-01-02', NULL, 1, 1, 0, 
 NULL, NULL, 'AxpDbDirPath', 'F', NULL, NULL, NULL, NULL, NULL, '', 'F', 'F', 'F', 'F', NULL, 10, 'axglo', 
-'Global Parameters(dc1)', NULL, NULL, NULL, NULL, 'T', 'F', 'F', NULL)>>
+'Global Parameters(dc1)', NULL, NULL, NULL, NULL, 'T', 'F', 'F', NULL)
+>>
 
+<<
+INSERT INTO axp_vp (axp_vpid, cancel, sourceid, mapname, username, modifiedon, createdby, createdon, wkid, app_level, app_desc, app_slevel, cancelremarks, wfroles, vpname, isparam, vscript, pcaption, pdatatype, modeofentry, sql_editor_psql, vpvalue, display, readonly, postaccept, postselect, customdatatype, datawidth, ttransid, dcselect, masterdl, "source", masterdlselect, masterdlui, isconstant, isvariable, isappparam, remarks) VALUES(1490770000000, 'F', 0, NULL, 'admin', '2025-01-02', 'admin', '2025-01-02', NULL, 1, 1, 0, NULL, NULL, 'AxFCMSendMsgURL', 'F', NULL, NULL, NULL, NULL, NULL, '', 'F', 'F', 'F', 'F', NULL, 10, 'axglo', 'Global Parameters(dc1)', NULL, NULL, NULL, NULL, 'T', 'F', 'F', NULL)
+>>
 
-
-<<INSERT INTO axp_vp (axp_vpid, cancel, sourceid, mapname, username, modifiedon, createdby, createdon, wkid, app_level, app_desc, app_slevel, cancelremarks, wfroles, vpname, isparam, vscript, pcaption, pdatatype, modeofentry, sql_editor_psql, vpvalue, display, readonly, postaccept, postselect, customdatatype, datawidth, ttransid, dcselect, masterdl, "source", masterdlselect, masterdlui, isconstant, isvariable, isappparam, remarks) VALUES(1490770000000, 'F', 0, NULL, 'admin', '2025-01-02', 'admin', '2025-01-02', NULL, 1, 1, 0, NULL, NULL, 'AxFCMSendMsgURL', 'F', NULL, NULL, NULL, NULL, NULL, '', 'F', 'F', 'F', 'F', NULL, 10, 'axglo', 'Global Parameters(dc1)', NULL, NULL, NULL, NULL, 'T', 'F', 'F', NULL)>>
-
-
-
-<<INSERT INTO axp_vp (axp_vpid, cancel, sourceid, mapname, username, modifiedon, createdby, createdon, wkid, app_level, app_desc, app_slevel, cancelremarks, wfroles, vpname, isparam, vscript, pcaption, pdatatype, modeofentry, sql_editor_psql, vpvalue, display, readonly, postaccept, postselect, customdatatype, datawidth, ttransid, dcselect, masterdl, "source", masterdlselect, masterdlui, isconstant, isvariable, isappparam, remarks) VALUES(1490990000000, 'F', 0, NULL, 'admin', '2025-01-02', 'admin', '2025-01-02', NULL, 1, 1, 0, NULL, NULL, 'AxMailFrom', 'F', NULL, NULL, NULL, NULL, NULL, '', 'F', 'F', 'F', 'F', NULL, 10, 'axglo', 'Global Parameters(dc1)', NULL, NULL, NULL, NULL, 'T', 'F', 'F', NULL)>>
+<<
+INSERT INTO axp_vp (axp_vpid, cancel, sourceid, mapname, username, modifiedon, createdby, createdon, wkid, app_level, app_desc, app_slevel, cancelremarks, wfroles, vpname, isparam, vscript, pcaption, pdatatype, modeofentry, sql_editor_psql, vpvalue, display, readonly, postaccept, postselect, customdatatype, datawidth, ttransid, dcselect, masterdl, "source", masterdlselect, masterdlui, isconstant, isvariable, isappparam, remarks) VALUES(1490990000000, 'F', 0, NULL, 'admin', '2025-01-02', 'admin', '2025-01-02', NULL, 1, 1, 0, NULL, NULL, 'AxMailFrom', 'F', NULL, NULL, NULL, NULL, NULL, '', 'F', 'F', 'F', 'F', NULL, 10, 'axglo', 'Global Parameters(dc1)', NULL, NULL, NULL, NULL, 'T', 'F', 'F', NULL)
+>>
 
 
 
@@ -63,11 +65,11 @@ INSERT INTO axvarcore (axvarcoreid, cancel, sourceid, mapname, username, modifie
 INSERT INTO axvarcore (axvarcoreid, cancel, sourceid, mapname, username, modifiedon, createdby, createdon, wkid, app_level, app_desc, app_slevel, cancelremarks, wfroles, vpname, isparam, vscript, pcaption, pdatatype, modeofentry, masterdlui, masterdl, "source", sql_editor_psql, vpvalue, display, readonly, customdatatype, datawidth, isappparam, constant_name, constant_value, isconstant, var_name, exp_editor_varscript, isvariable, db_funtion, db_funtion_params, isdbobj, event_onlogin, event_onformload, forms, event_onreportload, reports, remarks, stransid, axvarname, dbvarname, dbvartype, dbvarval, dbvarsourceid, forms_transid, reports_transid) VALUES(1491660000003, 'F', 1491660000002, 'axvar3', 'admin', '2025-01-02 18:41:26.000', 'admin', '2025-01-02 18:41:26.000', NULL, 1, 1, NULL, NULL, NULL, 'AxScriptsAPIURL', 'F', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', 'F', 'F', NULL, 10, 'F', NULL, NULL, 'T', NULL, NULL, 'F', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'axvar', 'AxScriptsAPIURL', NULL, NULL, NULL, 0, NULL, NULL);
 
 
+<<
+INSERT INTO axvarcore (axvarcoreid, cancel, sourceid, mapname, username, modifiedon, createdby, createdon, wkid, app_level, app_desc, app_slevel, cancelremarks, wfroles, vpname, isparam, vscript, pcaption, pdatatype, modeofentry, masterdlui, masterdl, "source", sql_editor_psql, vpvalue, display, readonly, customdatatype, datawidth, isappparam, constant_name, constant_value, isconstant, var_name, exp_editor_varscript, isvariable, db_funtion, db_funtion_params, isdbobj, event_onlogin, event_onformload, forms, event_onreportload, reports, remarks, stransid, axvarname, dbvarname, dbvartype, dbvarval, dbvarsourceid, forms_transid, reports_transid) VALUES(1491880000001, 'F', 1491880000000, 'axvar3', 'admin', '2025-01-02 18:41:38.000', 'admin', '2025-01-02 18:41:38.000', NULL, 1, 1, NULL, NULL, NULL, 'AxSignalRapiURL', 'F', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', 'F', 'F', NULL, 10, 'F', NULL, NULL, 'T', NULL, NULL, 'F', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'axvar', 'AxSignalRapiURL', NULL, NULL, NULL, 0, NULL, NULL)
+>>
 
-INSERT INTO axvarcore (axvarcoreid, cancel, sourceid, mapname, username, modifiedon, createdby, createdon, wkid, app_level, app_desc, app_slevel, cancelremarks, wfroles, vpname, isparam, vscript, pcaption, pdatatype, modeofentry, masterdlui, masterdl, "source", sql_editor_psql, vpvalue, display, readonly, customdatatype, datawidth, isappparam, constant_name, constant_value, isconstant, var_name, exp_editor_varscript, isvariable, db_funtion, db_funtion_params, isdbobj, event_onlogin, event_onformload, forms, event_onreportload, reports, remarks, stransid, axvarname, dbvarname, dbvartype, dbvarval, dbvarsourceid, forms_transid, reports_transid) VALUES(1491880000001, 'F', 1491880000000, 'axvar3', 'admin', '2025-01-02 18:41:38.000', 'admin', '2025-01-02 18:41:38.000', NULL, 1, 1, NULL, NULL, NULL, 'AxSignalRapiURL', 'F', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', 'F', 'F', NULL, 10, 'F', NULL, NULL, 'T', NULL, NULL, 'F', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'axvar', 'AxSignalRapiURL', NULL, NULL, NULL, 0, NULL, NULL);
-
-
-
+<<
 INSERT INTO axvarcore (axvarcoreid, cancel, sourceid, mapname, username, modifiedon, createdby, createdon, wkid, app_level, app_desc, app_slevel, cancelremarks, wfroles, vpname, isparam, vscript, pcaption, pdatatype, modeofentry, masterdlui, masterdl, "source", sql_editor_psql, vpvalue, display, readonly, customdatatype, datawidth, isappparam, constant_name, constant_value, isconstant, var_name, exp_editor_varscript, isvariable, db_funtion, db_funtion_params, isdbobj, event_onlogin, event_onformload, forms, event_onreportload, reports, remarks, stransid, axvarname, dbvarname, dbvartype, dbvarval, dbvarsourceid, forms_transid, reports_transid) VALUES(1492010000001, 'F', 1492010000000, 'axvar3', 'admin', '2025-01-02 18:41:47.000', 'admin', '2025-01-02 18:41:47.000', NULL, 1, 1, NULL, NULL, NULL, 'AxRMQAPIURL', 'F', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', 'F', 'F', NULL, 10, 'F', NULL, NULL, 'T', NULL, NULL, 'F', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'axvar', 'AxRMQAPIURL', NULL, NULL, NULL, 0, NULL, NULL);
-
+>>
 
