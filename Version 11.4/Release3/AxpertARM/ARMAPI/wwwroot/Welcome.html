@@ -1,0 +1,125 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Multi iViews and Cards in One Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://20.244.123.19/armtest/UI/axpertUI/plugins.bundle.css">
+  <link rel="stylesheet" href="http://20.244.123.19/armtest/UI/axpertUI/style.bundle.css">
+  <link rel="stylesheet" href="http://20.244.123.19/armtest/ThirdParty/jquery-confirm-master/jquery-confirm.min.css">
+  <style>
+    .mailTitle {
+      text-align: left;
+      font-weight: 700;
+      font-size: 16px;
+      padding: 10px;
+      border-bottom: 1px solid #bcbcbc49;
+    }
+
+    .mailUsername {
+      margin-right: 40px;
+    }
+
+    .mailUsername::before {
+      content: "\f02e";
+      margin-left: -20px;
+      font-family: "Material Icons Outlined";
+      position: absolute;
+      font-size: 16px;
+      margin-top: -3px !important;
+    }
+
+    .mailDate::before {
+      content: "\ebcc";
+      margin-left: -20px;
+      font-family: "Material Icons Outlined";
+      position: absolute;
+      font-size: 16px;
+      margin-top: -3px !important;
+    }
+
+    .mailFooter,
+    .mailHeader {
+      padding: 10px 10px 5px 10px;
+    }
+
+    .mailBody {
+      border-bottom: 1px solid #bcbcbc49;
+    }
+
+    .userRecord {
+      text-align: left;
+      margin-left: 20px;
+      margin-bottom: 15px;
+    }
+
+    .mail-subtitle {
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card text-center w-50">
+    <div class="card d-flex mailHeader">
+      <h4 class="mailTitle">Approve currency</h4>
+    </div>
+    <div class="mailBody p-5">
+      <!-- <div class="pb-5"> -->
+      <div>
+        <h6 class="card mail-subtitle text-left">Approve currency C200</h6>
+      </div>
+      <div class="userRecord d-flex">
+        <div class="text-left"><span class="card-text mailUsername">mohan</span>
+          <a href="javascript:void(0)" title="Assigned On" class="text-gray-800 fs-6 mb-1 mailDate">
+            18/09/2023 17:41:45</a>
+        </div>
+      </div>
+      <div class="d-flex mailContentContainer mb-5">
+        <span class="mailContent">Approve currency C200</span>
+      </div>
+
+      <!-- button html -->
+
+      <div class="d-flex align-items-center task-more-btns">
+        <div class="task-actions-sets d-flex">
+          <a href="http://20.244.123.19/armtest/api/v1/ARMMailTaskAction?taskid=1757440000018&userid=mkapprover&appname=hcmdev"
+            target="_blank" title="Approve"
+            class="btn btn-white btn-color-gray-700 btn-active-primary d-inline-flex align-items-center  btn-sm  me-2 "><span
+              class="material-icons material-icons-style material-icons-2" style="color: #47BE7D;">check_circle</span>
+            Approve
+          </a>
+        </div>
+
+        <div class="task-actions-sets d-flex">
+          <a href="http://20.244.123.19/armtest/api/v1/ARMMailTaskAction?taskid=1757440000018&userid=mkapprover&appname=hcmdev"
+            title="Reject" target="_blank"
+            class="btn btn-white btn-color-gray-700 btn-active-primary d-inline-flex align-items-center  me-2  btn-sm"><span
+              class="material-icons material-icons-style material-icons-2" style="color: red;">cancel</span>Reject</a>
+        </div>
+
+        <div class="task-actions-sets d-flex">
+          <a href="http://20.244.123.19/armtest/api/v1/ARMMailTaskAction?taskid=1757440000018&userid=mkapprover&appname=hcmdev"
+            target="_blank" title="Return"
+            class="btn btn-white btn-color-gray-700 btn-active-primary d-inline-flex align-items-center  me-2  btn-sm"><span
+              class="material-icons material-icons-style material-icons-2"
+              style="color: blueviolet;">reply</span>Return</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="http://20.244.123.19/armtest/UI/axpertUI/plugins.bundle.js"></script>
+  <script src="http://20.244.123.19/armtest/UI/axpertUI/scripts.bundle.js"></script>
+  <script type="text/javascript"
+    src="http://20.244.123.19/armtest/ThirdParty/jquery-confirm-master/jquery-confirm.min.js"></script>
+  <script type="text/javascript" src="http://20.244.123.19/armtest/Js/alerts.min.js"></script>
+
+  <script>
+
+  </script>
+
+</body>
+
+</html>
