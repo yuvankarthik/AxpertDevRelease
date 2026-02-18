@@ -1,1 +1,0 @@
-(function(a){a.timeEntry.regional.lt={show24Hours:true,separator:":",ampmPrefix:"",ampmNames:["AM","PM"],spinnerTexts:["Dabar","Ankstesnis laukas","Kitas laukas","Daugiau","Mažiau"]};a.timeEntry.setDefaults(a.timeEntry.regional.lt)})(jQuery);
